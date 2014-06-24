@@ -1,0 +1,4 @@
+angulartics-webjar
+==================
+
+Angulartics webjar
