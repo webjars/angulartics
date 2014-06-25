@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angulartics</artifactId>
-    <version>0.15.19</version>
+    <version>0.15.19-SNAPSHOT</version>
     <name>Angulartics</name>
     <description>Vendor-agnostic analytics for AngularJS applications</description>
     <url>http://luisfarzati.github.io/angulartics/</url>
