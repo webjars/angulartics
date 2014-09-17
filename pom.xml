@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angulartics</artifactId>
-    <version>0.16.5</version>
+    <version>0.16.6-SNAPSHOT</version>
     <name>Angulartics</name>
     <description>Vendor-agnostic analytics for AngularJS applications</description>
     <url>http://luisfarzati.github.io/angulartics/</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/angulartics</url>
         <connection>scm:git:https://github.com/webjars/angulartics.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angulartics.git</developerConnection>
-        <tag>angulartics-0.16.5</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <properties>
