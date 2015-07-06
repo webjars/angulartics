@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angulartics</artifactId>
-    <version>0.17.2-SNAPSHOT</version>
+    <version>0.17.2</version>
     <name>Angulartics</name>
     <description>Vendor-agnostic analytics for AngularJS applications</description>
     <url>http://luisfarzati.github.io/angulartics/</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/angulartics</url>
         <connection>scm:git:https://github.com/webjars/angulartics.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angulartics.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angulartics-0.17.2</tag>
     </scm>
     
     <properties>
@@ -118,11 +118,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/angulartics-${upstream.version}/dist"/>
+                                    <fileset dir="${project.build.directory}/angulartics-${upstream.version}/dist" />
                                 </move>
                             </target>
                         </configuration>
